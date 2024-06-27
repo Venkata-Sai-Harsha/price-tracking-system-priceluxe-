@@ -1,0 +1,12 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Optional: wrap to next line if too many items */
+    gap: 10px; /* Optional: add some space between items */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-list li {
+    margin: 5px;
+  }
+  

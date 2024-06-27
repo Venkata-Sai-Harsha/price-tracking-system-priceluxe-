@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .price-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+  }
+  
+  .price-history-table th, .price-history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: black; /* Ensuring background is black */
+    color: white; /* Ensuring text color is white */
+  }
+  
+  .price-history-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #333;
+    color: white;
+  }
+  
+  .price-history-table td a {
+    color: #4CAF50;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .price-history-table td a:hover {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button.close-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+  }
+  
+  button.close-button:hover {
+    background-color: #e53935; /* Darker red background on hover */
+  }
+  

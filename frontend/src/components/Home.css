@@ -1,0 +1,51 @@
+/* Home.css */
+.search-form-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form-label {
+  margin-top: 12px;
+  margin-right: 10px; /* Adds space between the label and the input box */
+  font-size: 1.3rem; /* Ensures the label text is of a reasonable size */
+}
+
+.search-form-input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s, box-shadow 0.3s;
+  color: black;
+}
+
+.search-form-input:focus {
+  border: 1px solid #007BFF;
+  box-shadow: 2px 2px 12px rgba(0, 123, 255, 0.3);
+}
+
+.search-form-button {
+  padding: 5px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.search-form-button:hover {
+  background-color: #0056b3;
+  box-shadow: 2px 2px 12px rgba(0, 86, 179, 0.3);
+}
